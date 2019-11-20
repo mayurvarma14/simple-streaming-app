@@ -8,6 +8,7 @@ import {
   DELETE_STREAM
 } from "./types";
 import streams from "../apis/streams";
+import history from "../history";
 
 export const signIn = userId => ({
   type: SIGN_IN,
@@ -24,6 +25,7 @@ export const createStream = values => async (dispatch, getState) => {
     userId: getState().auth.userId
   });
   dispatch({ type: CREATE_STREAM, payload: response.data });
+  history.push("/");
 };
 
 export const fetchStreams = () => async dispatch => {
