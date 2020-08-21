@@ -18,7 +18,7 @@ This is a simple react streaming application with google authentication
 
 **Screenshots**
 
-<img style="border:1px solid lightgray;" src="./documentation/images/view-stream.png" width="300" height="210">
+<img src="./documentation/images/view-stream.png" width="300" height="210">
 <img src="./documentation/images/create-stream.png" width="300" height="210">
 <img src="./documentation/images/list-stream.png" width="300" height="210">
 
