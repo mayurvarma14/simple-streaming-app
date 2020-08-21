@@ -1,0 +1,25 @@
+{
+  "name": "simple-streaming-app",
+  "version": "1.0.0",
+  "description": "Simple Streaming App",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "yarn --cwd ./client && yarn --cwd ./server && yarn --cwd ./rtmpserver",
+    "frontend": "yarn  --cwd ./client start",
+    "backend": "yarn  --cwd ./server start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurvarma14/simple-streaming-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurvarma14/simple-streaming-app/issues"
+  },
+  "homepage": "https://github.com/mayurvarma14/simple-streaming-app#readme",
+  "dependencies": {
+    "yarn": "^1.22.4"
+  }
+}

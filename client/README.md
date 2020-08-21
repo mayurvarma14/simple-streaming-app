@@ -1,1 +1,0 @@
-# Simple React Streaming app
