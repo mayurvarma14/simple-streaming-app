@@ -71,11 +71,14 @@ This is a simple react streaming application with google authentication
 ```bash
 npm run frontend
 npm run backend
+npm run media-server
 ```
 
 **Frontend** http://localhost:3001
 
 **Backend** http://localhost:3002
+
+**Media Server Admin Panel** http://localhost:8000/admin
 
 ## Contributing
 
