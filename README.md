@@ -14,9 +14,13 @@
 
 ## About The Project
 
-![Screenshot](./documentation/images/view-stream.png)
-
 This is a simple react streaming application with google authentication
+
+**Screenshots**
+
+<img src="./documentation/images/view-stream.png" width="300" height="210">
+<img src="./documentation/images/create-stream.png" width="300" height="210">
+<img src="./documentation/images/list-stream.png" width="300" height="210">
 
 ### Built With
 
