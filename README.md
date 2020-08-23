@@ -74,9 +74,9 @@ npm run backend
 npm run media-server
 ```
 
-**Frontend** http://localhost:3001
+**Frontend** http://localhost:3000
 
-**Backend** http://localhost:3002
+**Backend** http://localhost:3001
 
 **Media Server Admin Panel** http://localhost:8000/admin
 
